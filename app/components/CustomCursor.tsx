@@ -110,7 +110,7 @@ export default function CustomCursor() {
     const currentStyles = getCursorStyles();
 
     return (
-        <div className="pointer-events-none fixed inset-0 z-[9999] overflow-hidden hidden md:block">
+        <div className="pointer-events-none fixed inset-0 z-[9999] overflow-hidden hidden md:block" aria-hidden="true">
             {/* Primary Dot Cursor - Blue/White Gradient */}
             <motion.div
                 className="absolute w-2.5 h-2.5 rounded-full"

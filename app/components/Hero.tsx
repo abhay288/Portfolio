@@ -110,7 +110,7 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 py-24 md:py-0"
+            className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-32 pb-12 md:py-0 w-full"
         >
             {/* Background Atmosphere */}
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_20%_30%,rgba(168,85,247,0.1),transparent_50%)]" />

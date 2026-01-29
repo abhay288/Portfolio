@@ -98,3 +98,10 @@ body {
     cursor: none !important;
   }
 }
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  touch-action: manipulation;
+}
